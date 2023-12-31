@@ -118,7 +118,7 @@ img {
     background-color: var(--body-color);
     border-bottom: 1px solid var(--text-color);
     width: 100%;
-    padding-block: 4.5rem 3.5rem;
+    padding-block: 4rem 3rem;
     transition: top .4s;
   }
 }
@@ -201,11 +201,11 @@ img {
 
 .home__button{
   border: 1px solid var(--text-color);
-  padding: 1px 1.5rem;
+  padding: 0.5rem 1.5rem;
   justify-self: center;
   color: var(--title-color);
   font-size: var(--small-font-size);
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   font-weight: var(--font-semi-bold);
   display: inline-flex;
   align-items: center;
@@ -260,36 +260,6 @@ img {
 
 .home__button-link:hover{
   color:var(--title-color);
-}
-/* Swiper class */
-.swiper{
-  margin-inline: initial;
-}
-.swiper-pagination-bullets.swiper-pagination-horizontal{
-  bottom: -2rem;
-}
-.swiper-pagination-bullet{
-  width: 1rem;
-  height: .15rem;
-  border-radius: 0;
-  background-color: var(--text-color);
-  opacity: 1;
-  transition: background-color .3s, width .3s;
-
-  .swiper-pagination-bullet-active{
-    width: 1.5rem;
-    background-color: var(--title-color);
-  }
-
-/*=============== SCROLL BAR ===============*/
-::-webkit-scrollbar{
-  width: 0.6rem;
-  background-color: hsl(0, 0%, 12%);
-}
-
-::-webkit--thumb{
-  width: 0.6rem;
-  background-color: hsl(0, 0%, 20%);
 }
 
 /*=============== BREAKPOINTS ===============*/
@@ -401,9 +371,6 @@ img {
 }
 
 }
-}
-
-
 
 h2{
 	text-align: center;
@@ -463,4 +430,21 @@ h2{
 
 .product a:hover{
 	transform: scale(1.1);
+}
+
+.faaiq{
+  padding:15px;
+  font-size: 7px;
+  font-family: Ethnocentric ;
+  text-decoration: none;
+}
+
+.faaiq a{
+  color:inherit;
+}
+
+.faaiq  a:hover {
+  color:white; 
+  text-decoration:none; 
+  cursor:pointer;  
 }
